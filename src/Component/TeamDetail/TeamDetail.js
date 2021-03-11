@@ -20,7 +20,7 @@ const TeamDetail = (props) => {
                   </div>
                   </div>
 
-                  <div className="team-info-wrap container">
+                  <div className="team-info-wrap">
                   <div className="team_details">
                   <h2>{strLeague}</h2> <br /> 
                   <div><FontAwesomeIcon icon={faClock}></FontAwesomeIcon><p>Founded: {intFormedYear}</p></div>
