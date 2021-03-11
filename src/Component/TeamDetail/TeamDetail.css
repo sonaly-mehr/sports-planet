@@ -1,0 +1,124 @@
+/* .team_background_img img{
+    width: 100%;
+    height: 40vh;
+    background-position:center center;
+    background-repeat: no-repeat;
+  
+  } */
+  .team_section{
+      color:#fff;
+  }
+  .social_icon{
+      text-align: center;
+      font-size: 20px;
+      color:#fff;
+  }
+  .common{
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      border-radius: 15px;
+      margin:10px;
+      margin-bottom: 25px;
+  }
+  .fcbk{
+      background-color: #3C5A93;
+  }
+  .twtr{
+    background-color: #18A3EC;
+}
+.ytube{
+    background-color: red;
+}
+/* .social_icon img{
+    width: 50px;
+    height: 50px;
+    margin:10px;
+  } */
+.team_banner {
+    position: relative;
+}
+.team_banner img{
+    width: 100%;
+    background-position: center center;
+    position: relative;
+}
+.banner_shadow{
+    position: absolute;
+    left:0; right:0; top:0; bottom: 0; background-color: rgba(0, 0, 0, 0.5);
+}
+.banner_badge{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+.banner_badge img{
+    width:150px;
+    height: 150px;
+}
+.team-info-wrap{
+    display: flex;
+    background:#4246F6;
+    padding:15px;
+    margin:20px 0;
+    border-radius:15px;
+}
+.poster_img{
+    margin-left: 196px;
+}
+.poster_img img{
+    width: 500px;
+    height: 250px;
+    justify-content: flex-end;
+}
+.team_details{
+    padding:10px;
+    width: 500px;
+}
+.team_details h2{
+    font-size: 28px;
+   font-weight: 600;
+   width: 339px;
+}
+.team_details p{
+   font-weight: 700; 
+   line-height: 16px;
+   display: inline-block;
+   margin-left:10px;
+}
+
+/* Responsive */
+ @media (min-width: 767px) and (max-width:991px){
+    .container{max-width:750px;}
+    .poster_img{
+        margin-left: 0;
+    }
+} 
+@media only screen and (min-width: 479px) and (max-width:767px){
+    .container{max-width:450px;}
+    .team-info-wrap{display:block;}
+    .poster_img{
+        margin-left: 0;
+    }
+    .poster_img img{width: 270px;height: 200px;}
+    .banner_badge img{
+        width:100px;
+        height:100px;
+    }
+    
+}
+
+@media only screen and (max-width:479px){
+    .container{max-width:300px;}
+    .team-info-wrap{display:block;}
+    .poster_img{
+        margin-left: 0;
+    }
+    .poster_img img{width: 270px;height: 200px;}
+    .banner_badge img{
+        width:80px;
+        height: 80px;
+    }
+    
+}
